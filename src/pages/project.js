@@ -1,0 +1,128 @@
+import "../App.css";
+import Plx from "react-plx";
+import TechCard from "../components/techCard";
+
+import image_4 from "../components/pics/4.png";
+import image_5 from "../components/pics/5.png";
+
+import cloud_3 from "../components/pics/c_3.png";
+
+import stockviz from "../components/pics/stockviz.png";
+import parkspot from "../components/pics/parkspot.png";
+import streamy from "../components/pics/streamy.png";
+import sqlemployeedb from "../components/pics/sqlemployeedb.png";
+import jate from "../components/pics/jate.png";
+import travlr from "../components/pics/travlr.png";
+
+import { parallaxData } from "../components/parallaxData";
+
+//The plan is to read a JSON file filled with our techcard info.
+//For each project, feed that information into a tech card, and render our list of projects for each project in the JSON file.
+//
+export default function projects() {
+  return (
+    <>
+      <div className="project" id="project">
+        <Plx
+          className="parallax-ele image-4"
+          parallaxData={parallaxData.image_4}
+        >
+          <img src={image_4} alt="Its a pic!!" />
+        </Plx>
+        <Plx
+          className="parallax-ele cloud-3"
+          parallaxData={parallaxData.cloud_3}
+        >
+          <img src={cloud_3} alt="Its a pic!!" />
+        </Plx>
+        <Plx
+          className="parallax-ele image-5"
+          parallaxData={parallaxData.image_5}
+        >
+          <img src={image_5} alt="Its a pic!!" />
+        </Plx>
+        <div className="project-container on-top" id="projects">
+          <h1 className="white-shadow contact-text project-container-text">
+            projects
+          </h1>
+          <div className="project-grid-container">
+            <div className="project-grid-item">
+              <TechCard
+                className="on-top"
+                image={stockviz}
+                link="https://github.com/dann-lam/stock-viz"
+              />
+            </div>
+            <div className="project-grid-item">
+              <TechCard
+                className="on-top"
+                image={parkspot}
+                link="https://github.com/dann-lam/park-app"
+              />
+            </div>
+            <div className="project-grid-item">
+              <TechCard
+                className="on-top"
+                image={streamy}
+                link="https://github.com/dann-lam/streemy"
+              />
+            </div>
+            <div className="project-grid-item">
+              <TechCard
+                className="on-top"
+                image={sqlemployeedb}
+                link="https://github.com/dann-lam/04-29-2023-employee-database"
+              />
+            </div>
+            <div className="project-grid-item">
+              <TechCard
+                className="on-top"
+                image={jate}
+                link="https://github.com/dann-lam/04-29-2023-employee-database"
+              />
+            </div>
+            <div className="project-grid-item">
+              <TechCard
+                className="on-top"
+                image={travlr}
+                link="https://github.com/dann-lam/04-08-2023-travlr"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="project-container on-top" id="projects">
+          <TechCard
+            className="on-top"
+            image={stockviz}
+            link="https://github.com/dann-lam/stock-viz"
+          />
+          <TechCard
+            className="on-top"
+            image={parkspot}
+            link="https://github.com/dann-lam/park-app"
+          />
+          <TechCard
+            className="on-top"
+            image={streamy}
+            link="https://github.com/dann-lam/streemy"
+          />
+          <TechCard
+            className="on-top"
+            image={sqlemployeedb}
+            link="https://github.com/dann-lam/04-29-2023-employee-database"
+          />
+          <TechCard
+            className="on-top"
+            image={jate}
+            link="https://github.com/dann-lam/04-29-2023-employee-database"
+          />
+          <TechCard
+            className="on-top"
+            image={travlr}
+            link="https://github.com/dann-lam/04-08-2023-travlr"
+          />
+        </div> */}
+    </>
+  );
+}
