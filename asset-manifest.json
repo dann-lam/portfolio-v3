@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-v3/static/css/main.1d8b061c.css",
+    "main.js": "/portfolio-v3/static/js/main.a501e01e.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio-v3/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/0.png": "/portfolio-v3/static/media/0.1094f30fb716673dca06.png",
+    "static/media/c_0_v3.png": "/portfolio-v3/static/media/c_0_v3.7c690a483ff4edc5bc3e.png",
+    "static/media/7.png": "/portfolio-v3/static/media/7.a0f547ffc3217fc3a3b5.png",
+    "static/media/4.png": "/portfolio-v3/static/media/4.070ea171113a30e211ab.png",
+    "static/media/3.png": "/portfolio-v3/static/media/3.4bbcd16335cb8c51cab8.png",
+    "static/media/6.png": "/portfolio-v3/static/media/6.5aea489b000950f790bd.png",
+    "static/media/2.png": "/portfolio-v3/static/media/2.5f3ab4287fd22880b246.png",
+    "static/media/5.png": "/portfolio-v3/static/media/5.ac72aa5eb92ad616b47f.png",
+    "static/media/8.png": "/portfolio-v3/static/media/8.1beaa7aaa35f23d9d256.png",
+    "static/media/c_4.png": "/portfolio-v3/static/media/c_4.341a3dfe4b0f76636f5c.png",
+    "static/media/c_2.png": "/portfolio-v3/static/media/c_2.370722b6b40c5ebd17a4.png",
+    "static/media/c_3.png": "/portfolio-v3/static/media/c_3.c3fe1d5daccc0108d3ed.png",
+    "static/media/travlr.png": "/portfolio-v3/static/media/travlr.3b0ad8a7ffed32e0a5a3.png",
+    "static/media/c_1.png": "/portfolio-v3/static/media/c_1.70e48addb23a5dd884e0.png",
+    "static/media/1.png": "/portfolio-v3/static/media/1.f78d9441b2b57998c5b2.png",
+    "static/media/DanielLamResume2020_NDACLEARED.pdf": "/portfolio-v3/static/media/DanielLamResume2020_NDACLEARED.534d3b407418030920f4.pdf",
+    "static/media/stockviz.png": "/portfolio-v3/static/media/stockviz.567bbb070d4a7d047ce8.png",
+    "static/media/sqlemployeedb.png": "/portfolio-v3/static/media/sqlemployeedb.e722e78772780d997749.png",
+    "static/media/parkspot.png": "/portfolio-v3/static/media/parkspot.f9c09a67ca0c607195a2.png",
+    "static/media/streamy.png": "/portfolio-v3/static/media/streamy.1dc7d54df7f35be22bbf.png",
+    "index.html": "/portfolio-v3/index.html",
+    "main.1d8b061c.css.map": "/portfolio-v3/static/css/main.1d8b061c.css.map",
+    "main.a501e01e.js.map": "/portfolio-v3/static/js/main.a501e01e.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio-v3/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d8b061c.css",
+    "static/js/main.a501e01e.js"
+  ]
+}
