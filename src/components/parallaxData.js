@@ -65,7 +65,7 @@ export const parallaxData = {
         },
         {
           startValue: 0,
-          endValue: 250,
+          endValue: 650,
           property: "translateY",
         },
       ],
@@ -177,8 +177,8 @@ export const parallaxData = {
       end: "225vh",
       properties: [
         {
-          startValue: 0,
-          endValue: 150,
+          startValue: -70,
+          endValue: 230,
           property: "translateY",
         },
         {

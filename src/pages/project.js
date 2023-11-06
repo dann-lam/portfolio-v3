@@ -41,10 +41,10 @@ export default function projects() {
         >
           <img src={image_5} alt="Image_5" />
         </Plx>
+        <h1 className="white-shadow contact-text project-container-text on-top">
+          projects
+        </h1>
         <div className="project-container on-top" id="projects">
-          <h1 className="white-shadow contact-text project-container-text">
-            projects
-          </h1>
           <div className="project-grid-container">
             <div className="project-grid-item">
               <TechCard

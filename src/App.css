@@ -31,7 +31,7 @@ svg {
   display: flex;
   position: fixed;
   justify-content: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: rgba(117, 117, 117, 0.514);
   width: 100%;
   backdrop-filter: blur(2px);
@@ -65,7 +65,7 @@ svg {
   overflow: hidden;
   border-radius: 1em;
   box-shadow: var(--grey-box-shadow);
-  /* background-color: grey; */
+  background-color: black;
 }
 
 
@@ -120,7 +120,7 @@ svg {
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 .contact-container ul {
@@ -200,7 +200,6 @@ svg {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: pink;
 }
 
 .project-container{
