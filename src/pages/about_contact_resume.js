@@ -15,25 +15,25 @@ export default function aboutContactResume() {
           className="parallax-ele cloud-4"
           parallaxData={parallaxData.cloud_4}
         >
-          <img src={cloud_4} alt="Its a pic!!" />
+          <img src={cloud_4} alt="Cloud_4" />
         </Plx>
         <Plx
           className="parallax-ele image-6"
           parallaxData={parallaxData.image_6}
         >
-          <img src={image_6} alt="Its a pic!!" />
+          <img src={image_6} alt="Image_6" />
         </Plx>
         <Plx
           className="parallax-ele image-7"
           parallaxData={parallaxData.image_7}
         >
-          <img src={image_7} alt="Its a pic!!" />
+          <img src={image_7} alt="Image_7" />
         </Plx>
         <Plx
           className="parallax-ele image-8"
           parallaxData={parallaxData.image_8}
         >
-          <img src={image_8} alt="Its a pic!!" />
+          <img src={image_8} alt="Image_8" />
         </Plx>
         <div className="contact-container" id="contact">
           <ul className="on-top">

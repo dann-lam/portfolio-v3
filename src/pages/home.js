@@ -8,10 +8,10 @@ export default function homePage() {
   return (
     <div className="homepage" id="home">
       <Plx className="parallax-ele image-0" parallaxData={parallaxData.image_0}>
-        <img src={image_0} alt="Its a pic!!" />
+        <img src={image_0} alt="image_0" />
       </Plx>
       <Plx className="parallax-ele cloud-0" parallaxData={parallaxData.cloud_0}>
-        <img src={cloud_0} alt="Its a pic!!" />
+        <img src={cloud_0} alt="cloud_0" />
       </Plx>
       <h1 className="firstname grey-shadow on-top">Daniel Lam</h1>
       <h2 className="lastname grey-shadow on-top">

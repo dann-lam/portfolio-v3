@@ -4,6 +4,11 @@ import image_2 from "../components/pics/2.png";
 import image_3 from "../components/pics/3.png";
 import cloud_1 from "../components/pics/c_1.png";
 import cloud_2 from "../components/pics/c_2.png";
+
+import image_4 from "../components/pics/4.png";
+import image_5 from "../components/pics/5.png";
+
+import cloud_3 from "../components/pics/c_3.png";
 import { parallaxData } from "../components/parallaxData";
 import Plx from "react-plx";
 export default function technologies() {
@@ -29,32 +34,51 @@ export default function technologies() {
           className="parallax-ele image-1"
           parallaxData={parallaxData.image_1}
         >
-          <img src={image_1} alt="Its a pic!!" />
+          <img src={image_1} alt="Image_1" />
         </Plx>
         <Plx
           className="parallax-ele cloud-1"
           parallaxData={parallaxData.cloud_1}
         >
-          <img src={cloud_1} alt="Its a pic!!" />
+          <img src={cloud_1} alt="Cloud_1" />
         </Plx>
         <Plx
           className="parallax-ele image-2"
           parallaxData={parallaxData.image_2}
         >
-          <img src={image_2} alt="Its a pic!!" />
+          <img src={image_2} alt="Image_2" />
         </Plx>
         <Plx
           className="parallax-ele cloud-2"
           parallaxData={parallaxData.cloud_2}
         >
-          <img src={cloud_2} alt="Its a pic!!" />
+          <img src={cloud_2} alt="Cloud_2" />
         </Plx>
+
         <Plx
           className="parallax-ele image-3"
           parallaxData={parallaxData.image_3}
         >
-          <img src={image_3} alt="Its a pic!!" />
+          <img src={image_3} alt="Image_3" />
         </Plx>
+        {/* <Plx
+          className="parallax-ele image-4-alt"
+          parallaxData={parallaxData.image_4}
+        >
+          <img src={image_4} alt="Image_4" />
+        </Plx> */}
+        {/* <Plx
+          className="parallax-ele cloud-3-alt"
+          parallaxData={parallaxData.cloud_3}
+        >
+          <img src={cloud_3} alt="Cloud_3" />
+        </Plx> */}
+        {/* <Plx
+          className="parallax-ele image-5-alt"
+          parallaxData={parallaxData.image_5}
+        >
+          <img src={image_5} alt="Image_5" />
+        </Plx> */}
         <div className="tech-card-container on-top" id="technologies">
           <div className="tech-card">
             <h1 className="white-shadow">side</h1>

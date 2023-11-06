@@ -27,19 +27,19 @@ export default function projects() {
           className="parallax-ele image-4"
           parallaxData={parallaxData.image_4}
         >
-          <img src={image_4} alt="Its a pic!!" />
+          <img src={image_4} alt="Image_4" />
         </Plx>
         <Plx
           className="parallax-ele cloud-3"
           parallaxData={parallaxData.cloud_3}
         >
-          <img src={cloud_3} alt="Its a pic!!" />
+          <img src={cloud_3} alt="Cloud_3" />
         </Plx>
         <Plx
           className="parallax-ele image-5"
           parallaxData={parallaxData.image_5}
         >
-          <img src={image_5} alt="Its a pic!!" />
+          <img src={image_5} alt="Image_5" />
         </Plx>
         <div className="project-container on-top" id="projects">
           <h1 className="white-shadow contact-text project-container-text">

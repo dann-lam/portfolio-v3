@@ -24,7 +24,7 @@ svg {
 }
 
 .on-top {
-  z-index: 99;
+  z-index: 200;
 }
 
 .navbar {
@@ -109,7 +109,6 @@ svg {
   height: 100vh;
   width: 100%;
   justify-content: center;
-  z-index: 99;
 }
 
 .contact-container {
@@ -327,13 +326,14 @@ height: auto;
   opacity: .45;
   top: 20vh;
   right: -50vh;
-  z-index: 5;
+  z-index: 6;
 }
+
 .cloud-4{
   opacity: .55;
   top: -15vh;
   left: 0;
-  z-index: 8;
+  z-index: 10;
 }
 .image-0{
   top: 0;
@@ -375,27 +375,28 @@ height: auto;
   top: 70vh;
   right: 0vh;
   opacity: var(--opacityall);
-  z-index: 6;
+  z-index: 7;
 }
+
 .image-6{
   width: auto;
   bottom: 15vh;
   left: 0vh;
   opacity: var(--opacityall);
-  z-index: 7
+  z-index: 9;
 }
 .image-7{
   width: auto;
   bottom: 10vh;
   right: 0vh;
   opacity: var(--opacityall);
-  z-index: 8;
+  z-index: 10;
 }
 .image-8{
   width: auto;
   bottom: 0;
   opacity: var(--opacityall);
-  z-index: 9;
+  z-index: 11;
 }
 .contact-text{
   color:white;
