@@ -41,10 +41,12 @@ export default function projects() {
         >
           <img src={image_5} alt="Image_5" />
         </Plx>
-        <h1 className="white-shadow contact-text project-container-text on-top">
-          projects
-        </h1>
-        <div className="project-container on-top" id="projects">
+
+        <div className="project-container on-top">
+          <h1 className="white-shadow contact-text project-container-text on-top">
+            projects
+          </h1>
+          {/* I don't like that I have to put all these tech cards in a seperate div. It's gross. Listen, I've got higher prio things to take care of, and this works, this will be addressed in the future :) */}
           <div className="project-grid-container">
             <div className="project-grid-item">
               <TechCard
@@ -91,38 +93,6 @@ export default function projects() {
           </div>
         </div>
       </div>
-      {/* <div className="project-container on-top" id="projects">
-          <TechCard
-            className="on-top"
-            image={stockviz}
-            link="https://github.com/dann-lam/stock-viz"
-          />
-          <TechCard
-            className="on-top"
-            image={parkspot}
-            link="https://github.com/dann-lam/park-app"
-          />
-          <TechCard
-            className="on-top"
-            image={streamy}
-            link="https://github.com/dann-lam/streemy"
-          />
-          <TechCard
-            className="on-top"
-            image={sqlemployeedb}
-            link="https://github.com/dann-lam/04-29-2023-employee-database"
-          />
-          <TechCard
-            className="on-top"
-            image={jate}
-            link="https://github.com/dann-lam/04-29-2023-employee-database"
-          />
-          <TechCard
-            className="on-top"
-            image={travlr}
-            link="https://github.com/dann-lam/04-08-2023-travlr"
-          />
-        </div> */}
     </>
   );
 }

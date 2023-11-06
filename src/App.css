@@ -54,7 +54,7 @@ svg {
   padding: 10px;
 }
 
-.page-contained {
+.page-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,7 +199,6 @@ svg {
   width: 100%;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .project-container{
@@ -410,4 +409,41 @@ height: auto;
 
 .project-container-text {
   font-size: 45px;
+}
+
+/* Media Queries */
+
+/* To make our site more friendly for different formats, we can simply
+play with the spacing of our elements. */
+
+
+@media screen and (max-width: 1280px) and (min-width: 721px) {
+
+  .tech-card-container {
+  align-items: flex-start;
+}
+.project{
+  align-items: flex-end;
+}
+
+.project-container{
+
+  height: 95%;
+  width: 95%;
+}
+
+
+.project-grid-container {
+  gap: 5px;
+}
+
+.project-grid-item {
+  align-self: center;
+  transform: scale(0.75, 0.75);
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
 }

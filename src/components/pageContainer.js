@@ -8,7 +8,7 @@ import "../App.css";
 export default function pageContainer() {
   return (
     <>
-      <div className="page-contained">
+      <div className="page-wrapper">
         <HomePage />
         <Technologies />
         <Projects />
