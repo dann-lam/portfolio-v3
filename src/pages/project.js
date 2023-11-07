@@ -43,7 +43,7 @@ export default function projects() {
         </Plx>
 
         <div className="project-container on-top">
-          <h1 className="white-shadow contact-text project-container-text on-top">
+          <h1 className="white-shadow project-text project-container-text on-top">
             projects
           </h1>
           {/* I don't like that I have to put all these tech cards in a seperate div. It's gross. Listen, I've got higher prio things to take care of, and this works, this will be addressed in the future :) */}
