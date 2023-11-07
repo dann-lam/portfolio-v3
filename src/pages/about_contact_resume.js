@@ -10,7 +10,7 @@ import Plx from "react-plx";
 export default function aboutContactResume() {
   return (
     <>
-      <div className="aboutContact">
+      <div className="aboutContact" id="contact" >
         <Plx
           className="parallax-ele cloud-4"
           parallaxData={parallaxData.cloud_4}
@@ -35,7 +35,7 @@ export default function aboutContactResume() {
         >
           <img src={image_8} alt="Image_8" />
         </Plx>
-        <div className="contact-container" id="contact">
+        <div className="contact-container" >
           <ul className="on-top">
             <li className="white-shadow contact-text">
               email: <span></span>

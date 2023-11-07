@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function TechCard(props) {
   //Take info in, and set them into the cards, disp[laying the info.

@@ -5,14 +5,12 @@ import image_3 from "../components/pics/3.png";
 import cloud_1 from "../components/pics/c_1.png";
 import cloud_2 from "../components/pics/c_2.png";
 
-
 import { parallaxData } from "../components/parallaxData";
 import Plx from "react-plx";
 export default function technologies() {
-
   return (
     <>
-      <div className="tech-container">
+      <div className="tech-container" id="technologies">
         <Plx
           className="parallax-ele image-1"
           parallaxData={parallaxData.image_1}
@@ -44,7 +42,7 @@ export default function technologies() {
         >
           <img src={image_3} alt="Image_3" />
         </Plx>
-        <div className="tech-card-container on-top" id="technologies">
+        <div className="tech-card-container on-top">
           <div className="tech-card">
             <h1 className="white-shadow">side</h1>
             <div className="tech-card-info">
