@@ -5,15 +5,15 @@ import Projects from "../pages/project";
 
 import "../App.css";
 
-export default function pageContainer() {
+export default function contentContainer() {
   return (
     <>
-      <div className="page-wrapper">
+      <main className="content-wrapper">
         <HomePage />
         <Technologies />
         <Projects />
         <AboutContactResume />
-      </div>
+      </main>
     </>
   );
 }

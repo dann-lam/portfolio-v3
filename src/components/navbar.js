@@ -1,7 +1,7 @@
 export default function navbar() {
   return (
     <>
-      <div className="navbar">
+      <nav className="navbar">
         <ul className="navEle">
           <li className="white-shadow navbar-text">
             <a href="#home">home</a>
@@ -16,7 +16,7 @@ export default function navbar() {
             <a href="#contact">contact</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </>
   );
 }

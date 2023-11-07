@@ -42,7 +42,7 @@ export default function projects() {
           <img src={image_5} alt="Image_5" />
         </Plx>
 
-        <div className="project-container on-top" id="projects">
+        <section className="project-container on-top" id="projects">
           <h1 className="white-shadow project-text project-container-text on-top">
             projects
           </h1>
@@ -91,7 +91,7 @@ export default function projects() {
               />
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );
