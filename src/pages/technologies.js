@@ -42,10 +42,10 @@ export default function technologies() {
         >
           <img src={image_3} alt="Image_3" />
         </Plx>
-        <div className="tech-card-container on-top">
+        <section className="tech-card-container on-top">
           <div className="tech-card">
             <h1 className="white-shadow">side</h1>
-            <div className="tech-card-info">
+            <article className="tech-card-info">
               <h4 className="white-shadow">side libraries and frameworks</h4>
               <div className="tech-card-info-list">
                 <p>
@@ -286,12 +286,12 @@ export default function technologies() {
               <p>DayJS</p>
               <p>indexedDB</p>
               <p>bcrypt</p>
-            </div>
+            </article>
           </div>
           <div className="tech-card">
             <h1 className="white-shadow">main</h1>
 
-            <div className="tech-card-info">
+            <article className="tech-card-info">
               <h4 className="white-shadow">the primary stack</h4>
               <p>
                 MongoDB
@@ -580,12 +580,12 @@ export default function technologies() {
               </p>
               <p>sqllite</p>
               <p>noSQL</p>
-            </div>
+            </article>
           </div>
           <div className="tech-card">
             <h1 className="white-shadow">utils</h1>
 
-            <div className="tech-card-info">
+            <article className="tech-card-info">
               <h4 className="white-shadow">helper tools</h4>
               <p>github</p>
               <p>
@@ -702,9 +702,9 @@ export default function technologies() {
               </p>
               <p>insomnia</p>
               <p>bash</p>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

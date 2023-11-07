@@ -6,7 +6,7 @@ import image_0 from "../components/pics/0.png";
 import cloud_0 from "../components/pics/c_0_v3.png";
 export default function homePage() {
   return (
-    <div className="homepage" id="home">
+    <section className="homepage" id="home">
       <Plx className="parallax-ele image-0" parallaxData={parallaxData.image_0}>
         <img src={image_0} alt="image_0" />
       </Plx>
@@ -17,6 +17,6 @@ export default function homePage() {
       <h2 className="lastname grey-shadow on-top">
         full stack web developer, animator
       </h2>
-    </div>
+    </section>
   );
 }
