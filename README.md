@@ -16,3 +16,7 @@ CSS file is fairly messy, albeit everything serves a function, there is tons of 
 The website size is hovering around 17mb because of the large images, it's atrocious. It's likely why parallax sites keep their images much more simple and limited.
 
 About me section should be listed under the home page, which means I'll have to adjust the size for our mobile and smaller desktop resolutions.
+
+While I did update certain divs to be more semantic, i should likely dive deeper into cleaning it up more.
+
+It weould be nice to scale our Plx React Parallax elements to fit different screens, at the moment their full size remains which makes the background elements incoherent.
