@@ -13,10 +13,14 @@ export default function homePage() {
       <Plx className="parallax-ele cloud-0" parallaxData={parallaxData.cloud_0}>
         <img src={cloud_0} alt="cloud_0" />
       </Plx>
-      <h1 className="firstname grey-shadow on-top">Daniel Lam</h1>
-      <h2 className="lastname grey-shadow on-top">
-        full stack web developer, animator
-      </h2>
+      <article className=" home-about-me on-top">
+        <h1 className="firstname white-shadow on-top">Daniel Lam</h1>
+        <h2 className="lastname white-shadow on-top">
+          Hello, I am a full stack web developer coming from a background of
+          animation, I'm passionate about creative problem solving and creating
+          meaningful experiences
+        </h2>
+      </article>
     </section>
   );
 }
