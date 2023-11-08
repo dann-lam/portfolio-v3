@@ -3,13 +3,20 @@ import { useState, useEffect } from "react";
 export default function TechCard(props) {
   //Take info in, and set them into the cards, disp[laying the info.
   const [isHovered, setIsHovered] = useState(false);
-
+  const [isTapped, setIsTapped] = useState(false);
   const mouseEnter = () => {
     setIsHovered(true);
   };
 
   const mouseExit = () => {
     setIsHovered(false);
+  };
+  const touchEnter = () => {
+    setIsTapped(true);
+  };
+
+  const touchExit = () => {
+    setIsTapped(false);
   };
   //useEffect cleansup the mounting and unmounting process of our state.
   useEffect(() => {
@@ -29,17 +36,26 @@ export default function TechCard(props) {
         className={`project-card-container`}
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseExit}
+        onTouchStart={touchEnter}
+        onTouchEnd={touchExit}
       >
         <div className={`project-card-content`}>
-          <img
-            src={props.image}
-            alt="project icon"
-            className={`project-icon ${isHovered ? "blurred" : ""}`}
-          ></img>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <img
+              src={props.image}
+              alt="project icon"
+              className={`project-icon ${
+                isHovered || isTapped ? "blurred" : ""
+              }`}
+            ></img>
+          </a>
           {isHovered && (
+
             <a href={props.link} target="_blank" rel="noopener noreferrer">
               <div
-                className={`project-link ${isHovered ? "visible" : ""} on-top`}
+                className={`project-link ${
+                  isHovered || isTapped ? "visible" : ""
+                } on-top`}
               >
                 <p>Visit Site</p>
               </div>

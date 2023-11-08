@@ -277,6 +277,7 @@ svg {
   transform: translate(-50%, -50%);
   border-radius: 0.25em;
   background-color: rgba(56, 56, 219, 0.837);
+  user-select: none;
 }
 
 .site-container {
