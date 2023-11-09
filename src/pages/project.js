@@ -80,7 +80,7 @@ export default function projects() {
               <TechCard
                 className="on-top"
                 image={jate}
-                link="https://github.com/dann-lam/04-29-2023-employee-database"
+                link="https://github.com/dann-lam/pwa-text-editor"
               />
             </div>
             <div className="project-grid-item">
