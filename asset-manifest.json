@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.2569baa9.css",
-    "main.js": "/portfolio-v3/static/js/main.399b0942.js",
+    "main.js": "/portfolio-v3/static/js/main.a98b9061.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolio-v3/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Daniel-Lam-Resume-2023.pdf": "/portfolio-v3/static/media/Daniel-Lam-Resume-2023.efc6826afb7c75a33215.pdf",
     "static/media/0.png": "/portfolio-v3/static/media/0.1094f30fb716673dca06.png",
     "static/media/c_0_v3.png": "/portfolio-v3/static/media/c_0_v3.7c690a483ff4edc5bc3e.png",
     "static/media/7.png": "/portfolio-v3/static/media/7.a0f547ffc3217fc3a3b5.png",
@@ -18,18 +19,17 @@
     "static/media/travlr.png": "/portfolio-v3/static/media/travlr.3b0ad8a7ffed32e0a5a3.png",
     "static/media/c_1.png": "/portfolio-v3/static/media/c_1.70e48addb23a5dd884e0.png",
     "static/media/1.png": "/portfolio-v3/static/media/1.f78d9441b2b57998c5b2.png",
-    "static/media/DanielLamResume2020_NDACLEARED.pdf": "/portfolio-v3/static/media/DanielLamResume2020_NDACLEARED.534d3b407418030920f4.pdf",
     "static/media/stockviz.png": "/portfolio-v3/static/media/stockviz.567bbb070d4a7d047ce8.png",
     "static/media/sqlemployeedb.png": "/portfolio-v3/static/media/sqlemployeedb.e722e78772780d997749.png",
     "static/media/parkspot.png": "/portfolio-v3/static/media/parkspot.f9c09a67ca0c607195a2.png",
     "static/media/streamy.png": "/portfolio-v3/static/media/streamy.1dc7d54df7f35be22bbf.png",
     "index.html": "/portfolio-v3/index.html",
     "main.2569baa9.css.map": "/portfolio-v3/static/css/main.2569baa9.css.map",
-    "main.399b0942.js.map": "/portfolio-v3/static/js/main.399b0942.js.map",
+    "main.a98b9061.js.map": "/portfolio-v3/static/js/main.a98b9061.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolio-v3/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2569baa9.css",
-    "static/js/main.399b0942.js"
+    "static/js/main.a98b9061.js"
   ]
 }
