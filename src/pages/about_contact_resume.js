@@ -3,7 +3,7 @@ import image_6 from "../components/pics/6.png";
 import image_7 from "../components/pics/7.png";
 import image_8 from "../components/pics/8.png";
 import cloud_4 from "../components/pics/c_4.png";
-import resume from "../public/DanielLamResume2020_NDACLEARED.pdf";
+import resume from "../public/Daniel-Lam-Resume-2023.pdf";
 import { parallaxData } from "../components/parallaxData";
 import Plx from "react-plx";
 
